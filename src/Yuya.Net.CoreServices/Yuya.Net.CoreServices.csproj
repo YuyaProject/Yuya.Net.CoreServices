@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <ProjectGuid>{26922681-1151-71f6-bf36-3ee06741ecdf}</ProjectGuid>
+    <AssemblyVersion>1.20.517.1347</AssemblyVersion>
+    <FileVersion>1.20.517.1347</FileVersion>
+    <Version>1.20.517.1347</Version>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Company>Doğuş Bilgi İşlem ve Teknoloji Hizmetleri A.Ş.</Company>
+    <Authors>DT-Transformers Team</Authors>
+    <Description>Yuya Core Services.</Description>
+    <DelaySign>false</DelaySign>
+    <!-- <PackageProjectUrl>https://dtalm.visualstudio.com/TurkuazGO.VehicleShipment/_git/Framework</PackageProjectUrl>
+    <RepositoryUrl>https://dtalm.visualstudio.com/TurkuazGO.VehicleShipment/_git/Framework</RepositoryUrl> -->
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="castle.windsor" Version="5.0.1" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="3.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

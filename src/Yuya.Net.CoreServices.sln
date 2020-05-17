@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yuya.Net.CoreServices", "Yuya.Net.CoreServices\Yuya.Net.CoreServices.csproj", "{26922681-1151-71F6-BF36-3EE06741ECDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yuya.Net.CoreServices.Tests", "Yuya.Net.CoreServices.Tests\Yuya.Net.CoreServices.Tests.csproj", "{926D1EC1-4DAC-4646-849C-18158AE9CB36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26922681-1151-71F6-BF36-3EE06741ECDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26922681-1151-71F6-BF36-3EE06741ECDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26922681-1151-71F6-BF36-3EE06741ECDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26922681-1151-71F6-BF36-3EE06741ECDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926D1EC1-4DAC-4646-849C-18158AE9CB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926D1EC1-4DAC-4646-849C-18158AE9CB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926D1EC1-4DAC-4646-849C-18158AE9CB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926D1EC1-4DAC-4646-849C-18158AE9CB36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB089C01-AB98-4AC7-8319-0ED6B50B4573}
+	EndGlobalSection
+EndGlobal
